@@ -1,0 +1,23 @@
+RED NEURONAL PARA XOR
+Arquitectura: 2 entradas, 4 neuronas ocultas y 1 salida.
+Activaciones: tanh y sigmoide.
+Épocas: 5000. Semilla: 42.
+Evaluación sobre los mismos cuatro casos de entrenamiento.
+
+Tasa de aprendizaje: 0.1
+Pérdida final: 0.004109
+Exactitud: 100.00%
+Entrada | Esperado | Salida de la red | Clase
+[0, 0] | 0 | 0.001272 | 0
+[0, 1] | 1 | 0.995232 | 1
+[1, 0] | 1 | 0.995732 | 1
+[1, 1] | 0 | 0.006087 | 0
+
+Tasa de aprendizaje: 1.0
+Pérdida final: 0.000234
+Exactitud: 100.00%
+Entrada | Esperado | Salida de la red | Clase
+[0, 0] | 0 | 0.000093 | 0
+[0, 1] | 1 | 0.999729 | 1
+[1, 0] | 1 | 0.999755 | 1
+[1, 1] | 0 | 0.000327 | 0
